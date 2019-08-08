@@ -1,6 +1,6 @@
 {
   "name": "psaux",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Display processes info in Node",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   ],
   "os": [
     "darwin",
+    "freebsd",
     "linux",
     "win32"
   ],
@@ -35,7 +36,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5",
+    "mocha": "^6.1.4",
     "relaser": "^0.2.0"
   }
 }
